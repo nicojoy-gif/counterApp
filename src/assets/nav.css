@@ -1,0 +1,34 @@
+.grey{
+    color: rgb(211, 211, 211);
+    font-size: 21px;
+}
+.box{
+    width: 100%;
+    height: 100vh;
+    background-color:#212529;
+}
+.isActive{
+    border: 1px solid white;
+}
+.hover{
+    cursor: pointer;
+}
+.hover:hover{
+    transition: 0.2s linear;
+    transform: scale(1.4);
+}
+.hoverCol{
+    cursor: pointer;
+}
+.hoverCol:hover{
+    transition: .5s linear;
+    transform: scale(1.1);
+}
+.input{
+    width: 4rem;
+}
+.color{
+    width: 3.4rem;
+    height: 3rem;
+    cursor: pointer;
+}
