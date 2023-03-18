@@ -7,9 +7,9 @@ component: {
 }
 </script>
 <template>
-   <router-view v-slot="{ component }" > 
+   <router-view v-slot="{ Component }" > 
 <transition name="route" mode="out-in" appear>
-<component :is="component" />
+<component :is="Component" />
 </transition>
   </router-view>
 </template>
