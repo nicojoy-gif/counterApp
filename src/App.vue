@@ -1,10 +1,4 @@
 <script setup>
-import Navbar from './components/Navbar.vue';
-import Home from './components/HomePage.vue';
-component: {
-  Navbar
-  Home
-}
 </script>
 <template>
    <router-view v-slot="{ Component }" > 

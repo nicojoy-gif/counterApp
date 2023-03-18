@@ -1,5 +1,5 @@
 import Home from "../HomePage.vue";
-import Navbar from '../Navbar.vue'
+import Navbar from '../NavbarPage.vue'
 import NotfoundPage from "../NotfoundPage.vue";
 import { createWebHistory, createRouter } from "vue-router";
 
